@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework9MVC", "Homework9MVC\Homework9MVC.csproj", "{29B3FCAC-7DCD-4F32-814D-D02016165849}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{BA68BA29-9EFF-43C8-9184-CA31D71C692E}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureVMPublishModule.psm1 = PublishScripts\AzureVMPublishModule.psm1
+		PublishScripts\Publish-WebApplicationVM.ps1 = PublishScripts\Publish-WebApplicationVM.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{BFB6BECD-6E08-43AB-ADEA-4BD9564E57D4}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\Homework9MVC-VM-dev.json = PublishScripts\Configurations\Homework9MVC-VM-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29B3FCAC-7DCD-4F32-814D-D02016165849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B3FCAC-7DCD-4F32-814D-D02016165849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B3FCAC-7DCD-4F32-814D-D02016165849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B3FCAC-7DCD-4F32-814D-D02016165849}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFB6BECD-6E08-43AB-ADEA-4BD9564E57D4} = {BA68BA29-9EFF-43C8-9184-CA31D71C692E}
+	EndGlobalSection
+EndGlobal
